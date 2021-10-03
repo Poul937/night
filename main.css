@@ -112,12 +112,11 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 .skill-title {
     
 	font-size: 18px;
-    width: 300px;
+    width: 350px;
 }
 
 .skill-text {
 	margin-top: 7px;
-	margin-bottom: 0px:
     width: 300px;
 	font-family: "Ubuntu", sans-serif;
 }
