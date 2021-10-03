@@ -108,7 +108,7 @@ h2 , .form , .btn , .credits , .skill-text , .skill-title{
 .skill {
 	width: 350px;
 	/* background: url('../img/icons-t.jpg') no-repeat left top; */
-	padding-left: 100px;
+/* 	padding-left: 100px; */
 }
 
 .skill-title {
