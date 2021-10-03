@@ -16,13 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
 }
 
-/* p {
-	line-height: 1.65em; */
-}
-
-
-}
-
 .header {
     background: rgba(77,190,255,1);
     background: -moz-linear-gradient(left, rgba(77,190,255,1) 0%, rgba(55,144,217,1) 100%);
@@ -72,9 +65,6 @@ h1, h2, h3, h4, h5, h6 {
 	text-decoration: none;
 	transition: all 0.5s ease;
 }
-.btn-form{
-    /* width: 343px; */
-}
 
 .btn:hover {
 	background: #ed9619;;
@@ -108,7 +98,6 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 }
 
 .skill-title {
-    
 	font-size: 18px;
     width: 350px;
 }
@@ -123,11 +112,6 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 
 .skill-free {
 	width: 380px;
-	/* background: url('../img/icons-p.jpg') no-repeat left top; */
-}
-
-.skill-change {
-	/* background: url('../img/icons-r.jpg') no-repeat left top; */
 }
 
 .mail {
@@ -161,8 +145,6 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 }
 
 .icon{
-    /* height: 170px; */
-    /* background: url('../img/icons-t.jpg') no-repeat left top; */
     margin-left: 150px;
 }
 
