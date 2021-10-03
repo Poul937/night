@@ -1,0 +1,179 @@
+body {
+	font-family: "Open Sans" , sans-serif; 
+	/* color: #201b2d; */
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 900;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1171px;
+	margin: 0 auto;
+}
+
+.header {
+    background: rgba(77,190,255,1);
+    background: -moz-linear-gradient(left, rgba(77,190,255,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(77,190,255,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(77,190,255,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(77,190,255,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(77,190,255,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(77,190,255,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbeff', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
+	padding-bottom: 225px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	margin-top: 176px;
+	width: 555px;
+}
+
+.title {
+	font-size: 36px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 400px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background: rgba(255, 212, 41);
+	color: rgba(46, 42, 27);
+	/* border-radius: 100px; */
+	display: block;
+	width: 220px;
+	padding: 19px 0;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.btn-form{
+    /* width: 343px; */
+}
+
+.btn:hover {
+	background: #ed9619;;
+}
+
+h2, .form, .btn , .credits , .skill-text, .skill-title{
+     text-align: center 
+}
+
+.desktop {
+	margin-top: 72px;
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 75px;
+}
+
+.skill {
+	width: 350px;
+	/* background: url('../img/icons-t.jpg') no-repeat left top; */
+	padding-left: 100px;
+}
+
+.skill-title {
+    
+	font-size: 18px;
+    width: 300px;
+}
+
+.skill-text {
+	margin-top: 7px;
+    width: 300px;
+}
+
+.skill-free {
+	width: 380px;
+	/* background: url('../img/icons-p.jpg') no-repeat left top; */
+}
+
+.skill-change {
+	/* background: url('../img/icons-r.jpg') no-repeat left top; */
+}
+
+.mail {
+	background: rgba(236 243 248);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.form {
+	margin-top: 40px;
+}
+
+.input {
+	width: 340px;
+	border: 1px solid #cccccc;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	/* border-radius: 100px; */
+	height: 45px;
+	padding-left: 25px;
+    margin: 15px;
+}
+
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	display: inline;
+	/* margin-left: 11px; */
+    width: 343px;
+
+}
+
+.icon{
+    /* height: 170px; */
+    /* background: url('../img/icons-t.jpg') no-repeat left top; */
+    margin-left: 115px;
+}
+
+.footer {
+	padding: 33px 0;
+	background: rgba(22 77 122);
+}
+
+.credits {
+	color: #d4cee3;
+	font-size: 14px;
+	margin: 0;
+}
