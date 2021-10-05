@@ -1,6 +1,6 @@
 body {
 	font-family: "Open Sans" , sans-serif; 
-	font-size: 15px;
+	font-size: 16px;
 	padding: 0;
 	margin: 0;
 }
@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 900;
 }
 
-h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
+h2 , h3 , form , btn, .credits , .skill-text , .skill-title{
      text-align: center 
 }
 
@@ -36,10 +36,10 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 .wrapper {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .offer {
-	margin-top: 176px;
 	width: 555px;
 }
 
@@ -58,12 +58,14 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 }
 
 .btn {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	text-align: center;
 	background: rgba(255, 212, 41);
 	color: rgba(46, 42, 27);
 	display: block;
 	width: 220px;
-	padding: 19px 0;
+	padding: 21px 0;
 	text-decoration: none;
 	transition: all 0.5s ease;
 }
@@ -72,7 +74,7 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 	background: #ed9619;;
 }
 
-h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
+h2 , h3 , .form , .credits {
      text-align: center 
 }
 
@@ -89,32 +91,25 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 	font-size: 30px;
 }
 
+.skill{
+   	text-align: center;
+}
+
 .skills {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 75px;
 }
 
-.skill {
-	width: 350px;
-}
-
 .skill-title {
-    
-	font-size: 18px;
-    width: 350px;
+    font-size: 18px;
 }
 
 .skill-text {
 	margin-top: 7px;
 	margin-bottom: 7px ;
-	margin-left: 20px ;
-   	width: 300px;
+    width: 289px;
 	font-family: "Ubuntu", sans-serif;
-}
-
-.skill-free {
-	width: 380px;
 }
 
 .mail {
@@ -132,21 +127,18 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 	border: 1px solid #cccccc;
 	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	height: 45px;
+	height: 47px;
 	padding-left: 25px;
-    margin: 15px;
+	display: block;
+	margin: 0 auto;
 }
 
 .btn-form {
 	border: 0;
 	cursor: pointer;
 	display: inline;
-    width: 343px;
+    width: 340px;
 
-}
-
-.icon{
-    margin-left: 150px;
 }
 
 .footer {
@@ -162,4 +154,58 @@ h2 , h3 , .form , .btn , .credits , .skill-text , .skill-title{
 .container {
 	width: 1170px;
 	margin: 0 auto;
+}
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.wrapper , .skills{
+		flex-direction: column;
+	}
+	.skills{
+		align-items: center;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container{
+		width: 95%;
+	}
+	.header{
+		padding-bottom: 0px;
+	}
+	.input{
+		width:90%;
+		font-size: 14px;
+		padding-left: 10px;
+	}
+	.offer{
+		align-items: center;
+	}
+	.desktop , .offer , .intro , .wrapper , .btn , .form{
+		width: 100%;
+	}
+	.btn , .input{
+		border-radius: 20px;
+	}
 }
