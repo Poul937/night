@@ -108,8 +108,9 @@ h2 , h3 , .form , .credits {
 .skill-text {
 	margin-top: 7px;
 	margin-bottom: 7px ;
-    width: 289px;
-	font-family: "Ubuntu", sans-serif;
+    	width: 289px;
+	font-family: "Ubuntu Regular", sans-serif;
+	font-size:15px;
 }
 
 .mail {
